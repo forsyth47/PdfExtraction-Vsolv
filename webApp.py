@@ -14,7 +14,7 @@ This tool is used to search the data contents from the PDF file.
 """)
 
 # Load JSON data
-with open('PdfData.json', 'r') as f:
+with open('pdfData.json', 'r') as f:
     data = json.load(f)
 
 # Preprocess data into a dictionary for quick lookup
